@@ -1,0 +1,9 @@
+label: dos
+label-id: 0xb93583da
+device: /dev/sdb
+unit: human-readable-byte-sums
+
++1   : gap=      1M, size=   298G+92M, type=5
++4   : start=    2M, size=        20G, type=83
++1   : gap=      1M, size=       512M, type=83
++1   : gap=      1M, size=       512M, type=83

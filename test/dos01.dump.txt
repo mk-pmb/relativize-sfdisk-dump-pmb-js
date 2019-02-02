@@ -1,0 +1,9 @@
+label: dos
+label-id: 0xb93583da
+device: /dev/sdb
+unit: sectors
+
+/dev/sdb1 : start=        2048, size=   625139712, type=5
+/dev/sdb5 : start=        4096, size=    41943040, type=83
+/dev/sdb6 : start=    41949184, size=     1048576, type=83
+/dev/sdb7 : start=    42999808, size=     1048576, type=83

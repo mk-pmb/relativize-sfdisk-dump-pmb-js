@@ -1,5 +1,5 @@
 { "name": "relativize-sfdisk-dump-pmb",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "In a partition list from `sfdisk --dump`, translate between absolute and relative partition numbers and offsets. Also translate sizes between sectors and human-friendly suffixed bytes.",
   "keywords": [],
 
@@ -16,9 +16,9 @@
 
   "private": false, "license": "ISC",
 
-  "main": "rela.js",
+  "main": "src/translate.js",
   "bin": "bin/cli.mjs",
-  "scripts": { "test": "nodejs test/all.js" },
+  "scripts": { "test": "bash test/all.sh" },
   "directories": { "test": "test" },
 
   "dependencies": {
