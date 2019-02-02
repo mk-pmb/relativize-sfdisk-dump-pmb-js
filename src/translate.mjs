@@ -2,6 +2,11 @@
 
 import decideLineType from './decideLineType';
 
+function asLines(x) {
+  if (Array.isArray(x)) { return x; }
+  return String(x).split(/\n/);
+}
+
 function translate(origDump) {
   const output = [];
   const ctx = {
@@ -18,7 +23,7 @@ function translate(origDump) {
     ctx.curLnNum = idx + 1;
     decideLineType(ctx);
   }
-  String(origDump).split(/\n/).forEach(parseInputLine);
+  asLines(origDump).forEach(parseInputLine);
   return output;
 }
 
