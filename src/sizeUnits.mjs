@@ -3,6 +3,9 @@
 import fail from './fail';
 
 const prefixLetters = 'KMGTP'.match(/\S/g);
+// Naming note: We use the prefixes to the base unit (byte)
+//    as suffixes to the numbers of bytes.
+
 const prefixStepFactor = 1024;
 const hrSumFmtName = 'human-readable-byte-sums';
 

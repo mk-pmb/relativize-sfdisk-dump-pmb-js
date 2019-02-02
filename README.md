@@ -7,7 +7,7 @@ relativize-sfdisk-dump-pmb
 <!--#echo json="package.json" key="description" -->
 In a partition list from `sfdisk --dump`, translate between absolute and
 relative partition numbers and offsets. Also translate sizes between sectors
-and human-friendly suffixed bytes.
+and human-friendly magnitude-suffixed bytes.
 <!--/#echo -->
 
 
